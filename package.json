@@ -9,6 +9,8 @@
   },
   "scripts": {
     "test": "node --test",
-    "materials": "node materials.js"
+    "materials": "node materials.js",
+    "audit": "node audit/cli.js",
+    "audit:json": "node audit/cli.js --json"
   }
 }
